@@ -19,16 +19,16 @@ Amazon Detective を全リージョンで有効にするスクリプトです。
 - 「git clone」でスクリプトをダウンロードします。
 
 ```sh
-$ git clone https://github.com/takeda-m/aws-secure-baseline
+$ git clone https://github.com/takeda-m/iij-aws-secure-baseline
 ```
 
 ### 3. スクリプト実行
 
-1. cd でディレクトリ aws-secure-baseline/enable-detective-all-regions/ へ移動します。
+1. cd でディレクトリ iij-aws-secure-baseline/enable-detective-all-regions/ へ移動します。
 2. enable-detective-all-regions.sh を実行します。
 
 ```sh
-$ cd aws-secure-baseline/enable-detective-all-regions/
+$ cd iij-aws-secure-baseline/enable-detective-all-regions/
 $ ./enable-detective-all-regions.sh
 # 以下のINFOメッセージが表示されれば実行終了です。
 2022-09-20T03:08:27 [INFO] (enable-detective-all-regions.sh:111:main) 全リージョンのAmazon Detectiveを有効化 正常終了
@@ -49,5 +49,5 @@ $ # ERRORメッセージがヒットしなければ正常です。
 
 ```sh
 $ cd ~
-$ rm -rf aws-secure-baseline/
+$ rm -rf iij-aws-secure-baseline/
 ```
